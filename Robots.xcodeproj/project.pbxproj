@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,32 @@
 		9C1E42CF23E9C8C300614271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E42CD23E9C8C300614271 /* Main.storyboard */; };
 		9C1E42D123E9C8C500614271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E42D023E9C8C500614271 /* Assets.xcassets */; };
 		9C1E42D423E9C8C500614271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1E42D223E9C8C500614271 /* LaunchScreen.storyboard */; };
+		9C1E42DD23E9C90600614271 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E42DC23E9C90600614271 /* Endpoints.swift */; };
+		9C1E42DF23E9CA3000614271 /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E42DE23E9CA3000614271 /* DataResponseError.swift */; };
+		9C1E42E123E9CB4200614271 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E42E023E9CB4200614271 /* Robot.swift */; };
+		9C1E42E523E9D0C200614271 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E42E423E9D0C200614271 /* ApiError.swift */; };
+		9C2508DA23E9F9A300CE8E05 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2508D923E9F9A300CE8E05 /* Api.swift */; };
+		9C2508DD23EA20E800CE8E05 /* DanceoffsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2508DC23EA20E800CE8E05 /* DanceoffsViewController.swift */; };
+		9C2508E223EA220500CE8E05 /* DanceoffPopulated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2508E123EA220500CE8E05 /* DanceoffPopulated.swift */; };
+		9C2508E423EA24C100CE8E05 /* DanceoffsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2508E323EA24C100CE8E05 /* DanceoffsDataSource.swift */; };
+		9C4FE7CA23F00FA800B7247D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4FE7C923F00FA800B7247D /* AppSettings.swift */; };
+		9C4FE7D023F0220400B7247D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9C4FE7CF23F0220400B7247D /* README.md */; };
+		9C77C3B823EDA82500209D6C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3B723EDA82500209D6C /* StartViewController.swift */; };
+		9C77C3BB23EDAC7A00209D6C /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3BA23EDAC7A00209D6C /* TeamsViewController.swift */; };
+		9C77C3BE23EDADED00209D6C /* CompetitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3BD23EDADED00209D6C /* CompetitionViewController.swift */; };
+		9C77C3C023EED61E00209D6C /* RobotsTeamMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3BF23EED61E00209D6C /* RobotsTeamMaker.swift */; };
+		9C77C3C323EED82F00209D6C /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3C223EED82F00209D6C /* Collection+Extensions.swift */; };
+		9C77C3C923EEE49500209D6C /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3C823EEE49500209D6C /* TeamView.swift */; };
+		9C77C3CB23EEE4A100209D6C /* TeamView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C77C3CA23EEE4A100209D6C /* TeamView.xib */; };
+		9C77C3CE23EEE69100209D6C /* RobotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3CC23EEE69100209D6C /* RobotCollectionViewCell.swift */; };
+		9C77C3CF23EEE69100209D6C /* RobotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C77C3CD23EEE69100209D6C /* RobotCollectionViewCell.xib */; };
+		9C77C3D123EEF11500209D6C /* DanceoffMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3D023EEF11500209D6C /* DanceoffMaker.swift */; };
+		9C77C3D323EEF9A200209D6C /* Opponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3D223EEF9A200209D6C /* Opponents.swift */; };
+		9C77C3D523EF05D000209D6C /* DanceOffResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3D423EF05D000209D6C /* DanceOffResults.swift */; };
+		9C77C3D723EF08B400209D6C /* Danceoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C77C3D623EF08B400209D6C /* Danceoff.swift */; };
+		9C9995EF23EA2BB6007965BA /* DanceoffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9995ED23EA2BB6007965BA /* DanceoffTableViewCell.swift */; };
+		9C9995F023EA2BB6007965BA /* DanceoffTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9995EE23EA2BB6007965BA /* DanceoffTableViewCell.xib */; };
+		9CAD8A1123EA32DB001F6E1F /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9CAD8A1023EA32DB001F6E1F /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +50,31 @@
 		9C1E42D023E9C8C500614271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1E42D323E9C8C500614271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1E42D523E9C8C500614271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1E42DC23E9C90600614271 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		9C1E42DE23E9CA3000614271 /* DataResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponseError.swift; sourceTree = "<group>"; };
+		9C1E42E023E9CB4200614271 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		9C1E42E423E9D0C200614271 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		9C2508D923E9F9A300CE8E05 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		9C2508DC23EA20E800CE8E05 /* DanceoffsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceoffsViewController.swift; sourceTree = "<group>"; };
+		9C2508E123EA220500CE8E05 /* DanceoffPopulated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceoffPopulated.swift; sourceTree = "<group>"; };
+		9C2508E323EA24C100CE8E05 /* DanceoffsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceoffsDataSource.swift; sourceTree = "<group>"; };
+		9C4FE7C923F00FA800B7247D /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		9C4FE7CF23F0220400B7247D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9C77C3B723EDA82500209D6C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		9C77C3BA23EDAC7A00209D6C /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		9C77C3BD23EDADED00209D6C /* CompetitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionViewController.swift; sourceTree = "<group>"; };
+		9C77C3BF23EED61E00209D6C /* RobotsTeamMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsTeamMaker.swift; sourceTree = "<group>"; };
+		9C77C3C223EED82F00209D6C /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		9C77C3C823EEE49500209D6C /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		9C77C3CA23EEE4A100209D6C /* TeamView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamView.xib; sourceTree = "<group>"; };
+		9C77C3CC23EEE69100209D6C /* RobotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C77C3CD23EEE69100209D6C /* RobotCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RobotCollectionViewCell.xib; sourceTree = "<group>"; };
+		9C77C3D023EEF11500209D6C /* DanceoffMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceoffMaker.swift; sourceTree = "<group>"; };
+		9C77C3D223EEF9A200209D6C /* Opponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opponents.swift; sourceTree = "<group>"; };
+		9C77C3D423EF05D000209D6C /* DanceOffResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceOffResults.swift; sourceTree = "<group>"; };
+		9C77C3D623EF08B400209D6C /* Danceoff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Danceoff.swift; sourceTree = "<group>"; };
+		9C9995ED23EA2BB6007965BA /* DanceoffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceoffTableViewCell.swift; sourceTree = "<group>"; };
+		9C9995EE23EA2BB6007965BA /* DanceoffTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DanceoffTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CAD8A1123EA32DB001F6E1F /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +108,10 @@
 		9C1E42C623E9C8C300614271 /* Robots */ = {
 			isa = PBXGroup;
 			children = (
+				9C4FE7CF23F0220400B7247D /* README.md */,
+				9C77C3C123EED81500209D6C /* Extensions */,
+				9C2508DB23EA20B800CE8E05 /* Sceanes */,
+				9C1E42DB23E9C8FF00614271 /* Model */,
 				9C1E42C723E9C8C300614271 /* AppDelegate.swift */,
 				9C1E42C923E9C8C300614271 /* SceneDelegate.swift */,
 				9C1E42CB23E9C8C300614271 /* ViewController.swift */,
@@ -65,6 +121,99 @@
 				9C1E42D523E9C8C500614271 /* Info.plist */,
 			);
 			path = Robots;
+			sourceTree = "<group>";
+		};
+		9C1E42DB23E9C8FF00614271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C2508D923E9F9A300CE8E05 /* Api.swift */,
+				9C1E42DC23E9C90600614271 /* Endpoints.swift */,
+				9C1E42DE23E9CA3000614271 /* DataResponseError.swift */,
+				9C1E42E423E9D0C200614271 /* ApiError.swift */,
+				9C1E42E023E9CB4200614271 /* Robot.swift */,
+				9C2508E123EA220500CE8E05 /* DanceoffPopulated.swift */,
+				9C77C3D423EF05D000209D6C /* DanceOffResults.swift */,
+				9C77C3D623EF08B400209D6C /* Danceoff.swift */,
+				9C4FE7C923F00FA800B7247D /* AppSettings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C2508DB23EA20B800CE8E05 /* Sceanes */ = {
+			isa = PBXGroup;
+			children = (
+				9C77C3B623EDA7E800209D6C /* Start */,
+				9C77C3B923EDAC5B00209D6C /* Teams */,
+				9C77C3BC23EDADDD00209D6C /* Competition */,
+				9C2508DE23EA219100CE8E05 /* Danceoffs */,
+			);
+			path = Sceanes;
+			sourceTree = "<group>";
+		};
+		9C2508DE23EA219100CE8E05 /* Danceoffs */ = {
+			isa = PBXGroup;
+			children = (
+				9C2508DC23EA20E800CE8E05 /* DanceoffsViewController.swift */,
+				9C2508E323EA24C100CE8E05 /* DanceoffsDataSource.swift */,
+				9C9995F123EA2BBC007965BA /* Views */,
+			);
+			path = Danceoffs;
+			sourceTree = "<group>";
+		};
+		9C77C3B623EDA7E800209D6C /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				9C77C3B723EDA82500209D6C /* StartViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		9C77C3B923EDAC5B00209D6C /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				9C77C3BA23EDAC7A00209D6C /* TeamsViewController.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		9C77C3BC23EDADDD00209D6C /* Competition */ = {
+			isa = PBXGroup;
+			children = (
+				9C77C3C523EEE47500209D6C /* Views */,
+				9C77C3BD23EDADED00209D6C /* CompetitionViewController.swift */,
+				9C77C3BF23EED61E00209D6C /* RobotsTeamMaker.swift */,
+				9C77C3D023EEF11500209D6C /* DanceoffMaker.swift */,
+				9C77C3D223EEF9A200209D6C /* Opponents.swift */,
+			);
+			path = Competition;
+			sourceTree = "<group>";
+		};
+		9C77C3C123EED81500209D6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C77C3C223EED82F00209D6C /* Collection+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C77C3C523EEE47500209D6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C77C3C823EEE49500209D6C /* TeamView.swift */,
+				9C77C3CA23EEE4A100209D6C /* TeamView.xib */,
+				9C77C3CC23EEE69100209D6C /* RobotCollectionViewCell.swift */,
+				9C77C3CD23EEE69100209D6C /* RobotCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C9995F123EA2BBC007965BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C9995ED23EA2BB6007965BA /* DanceoffTableViewCell.swift */,
+				9C9995EE23EA2BB6007965BA /* DanceoffTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +232,9 @@
 			dependencies = (
 			);
 			name = Robots;
+			packageProductDependencies = (
+				9CAD8A1023EA32DB001F6E1F /* SDWebImage */,
+			);
 			productName = Robots;
 			productReference = 9C1E42C423E9C8C300614271 /* Robots.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 9C1E42BB23E9C8C300614271;
+			packageReferences = (
+				9CAD8A0F23EA32DB001F6E1F /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 9C1E42C523E9C8C300614271 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +282,11 @@
 			files = (
 				9C1E42D423E9C8C500614271 /* LaunchScreen.storyboard in Resources */,
 				9C1E42D123E9C8C500614271 /* Assets.xcassets in Resources */,
+				9C77C3CB23EEE4A100209D6C /* TeamView.xib in Resources */,
+				9C77C3CF23EEE69100209D6C /* RobotCollectionViewCell.xib in Resources */,
 				9C1E42CF23E9C8C300614271 /* Main.storyboard in Resources */,
+				9C9995F023EA2BB6007965BA /* DanceoffTableViewCell.xib in Resources */,
+				9C4FE7D023F0220400B7247D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +297,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9995EF23EA2BB6007965BA /* DanceoffTableViewCell.swift in Sources */,
+				9C77C3CE23EEE69100209D6C /* RobotCollectionViewCell.swift in Sources */,
+				9C77C3C023EED61E00209D6C /* RobotsTeamMaker.swift in Sources */,
+				9C77C3B823EDA82500209D6C /* StartViewController.swift in Sources */,
+				9C2508DA23E9F9A300CE8E05 /* Api.swift in Sources */,
 				9C1E42CC23E9C8C300614271 /* ViewController.swift in Sources */,
+				9C77C3BE23EDADED00209D6C /* CompetitionViewController.swift in Sources */,
 				9C1E42C823E9C8C300614271 /* AppDelegate.swift in Sources */,
+				9C1E42DD23E9C90600614271 /* Endpoints.swift in Sources */,
+				9C77C3D323EEF9A200209D6C /* Opponents.swift in Sources */,
+				9C77C3D723EF08B400209D6C /* Danceoff.swift in Sources */,
+				9C2508DD23EA20E800CE8E05 /* DanceoffsViewController.swift in Sources */,
 				9C1E42CA23E9C8C300614271 /* SceneDelegate.swift in Sources */,
+				9C1E42E123E9CB4200614271 /* Robot.swift in Sources */,
+				9C4FE7CA23F00FA800B7247D /* AppSettings.swift in Sources */,
+				9C77C3D123EEF11500209D6C /* DanceoffMaker.swift in Sources */,
+				9C2508E423EA24C100CE8E05 /* DanceoffsDataSource.swift in Sources */,
+				9C2508E223EA220500CE8E05 /* DanceoffPopulated.swift in Sources */,
+				9C77C3C923EEE49500209D6C /* TeamView.swift in Sources */,
+				9C1E42E523E9D0C200614271 /* ApiError.swift in Sources */,
+				9C1E42DF23E9CA3000614271 /* DataResponseError.swift in Sources */,
+				9C77C3D523EF05D000209D6C /* DanceOffResults.swift in Sources */,
+				9C77C3BB23EDAC7A00209D6C /* TeamsViewController.swift in Sources */,
+				9C77C3C323EED82F00209D6C /* Collection+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +518,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9CAD8A0F23EA32DB001F6E1F /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9CAD8A1023EA32DB001F6E1F /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CAD8A0F23EA32DB001F6E1F /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C1E42BC23E9C8C300614271 /* Project object */;
 }

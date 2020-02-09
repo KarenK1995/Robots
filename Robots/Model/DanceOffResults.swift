@@ -9,10 +9,10 @@
 import Foundation
 
 struct DanceOffResults: Codable {
-    let danceoffs: [Danceoff]
+    let danceoffs: [DanceoffResult]
 }
 
-struct Danceoff: Codable {
+struct DanceoffResult: Codable {
     let winner: Int
     let opponents: [Int]
 }

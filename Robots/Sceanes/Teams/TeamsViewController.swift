@@ -9,22 +9,50 @@
 import UIKit
 
 class TeamsViewController: UIViewController {
+    
+    //MARK: Methods
+    @IBOutlet weak var team1TextField: UITextField!
+    @IBOutlet weak var team2TextField: UITextField!
+    @IBOutlet weak var errorLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
-    */
+    
+    //MARK: Actions
+    @IBAction func startButtonAction(_ sender: UIButton) {
+        if areTeamNamesFilled() {
+            performSegue(withIdentifier: "StartCompetition", sender: self)
+        }
+        else {
+            errorLabel.isHidden = false
+        }
+    }
+    
+    @IBAction func textFieldTextDidChange(_ textField: UITextField) {
+        if areTeamNamesFilled() {
+            errorLabel.isHidden = true
+        }
+    }
+    
+    //MARK: Methods
+    private func areTeamNamesFilled() -> Bool {
+        guard let name1 = team1TextField.text,
+              let name2 = team2TextField.text else {
+                return false
+        }
+        return (!name1.isEmpty && !name2.isEmpty)
+    }
+}
 
+extension TeamsViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }

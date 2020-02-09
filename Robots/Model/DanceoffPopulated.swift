@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct DanceoffPopulated: Codable {
+    let id: Int
+    let dancedAt: String
+    let winner, loser: Robot
+}
+
+typealias DanceoffsPopulated = [DanceoffPopulated]

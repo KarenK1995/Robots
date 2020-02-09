@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+extension Collection {
+    
+    func random(n: Int) -> [Self.Element] {
+        return Array(shuffled().prefix(n))
+    }
+}

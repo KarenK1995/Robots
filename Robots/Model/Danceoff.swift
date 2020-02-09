@@ -8,7 +8,9 @@
 
 import Foundation
 
-//struct Danceoff: Codable {
-//    let id, winner, loser: Int
-//    let dancedAt: String
-//}
+struct Danceoff: Codable {
+    let id, winner, loser: Int
+    let dancedAt: String
+}
+
+typealias Danceoffs = [Danceoff]

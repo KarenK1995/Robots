@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct ApiError: Codable {
+    let statusCode: Int
+    let error, message: String
+}

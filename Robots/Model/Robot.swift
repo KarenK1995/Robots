@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct Robot: Codable, Hashable {
+    let id: Int
+    let name, powermove: String
+    let experience: Int
+    let outOfOrder: Bool
+    let avatar: String
+}
+
+typealias Robots = [Robot]

@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+enum DataResponseError: Error {
+    case network
+    case decoding
+}
+
+extension DataResponseError {
+    
+    var description: String {
+        switch self {
+        case .network:
+            return "Request failed"
+        case .decoding:
+            return "Failed to decode"
+        }
+    }
+}
